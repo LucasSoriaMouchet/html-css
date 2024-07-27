@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Fundos</title>
+    <style>
+        body {
+            background-image: url('imagens/wallpaper004.jpg');
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-repeat:round;
+            text-align: center;
+            align-items: center;
+        }
+
+        .quadrado{
+            width: 300px;
+            height: 300px;
+            border: 3px solid black;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        #q1{
+            background-color: crimson;
+        }
+
+        #q2{
+            background-image: linear-gradient(to bottom, skyblue, rgb(255, 161, 161));
+        }
+
+        #q3{
+            background-image: url('imagens/pattern001.png');
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tipos de fundos</h1>
+    <h2>Usando background-color</h2>
+
+    <div class="quadrado" id="q1">
+    </div>
+
+    <h2>Usando background-image: Linear gradient</h2>
+
+    <div class="quadrado" id="q2">
+    </div>
+
+    <h2>Usando background-image: url</h2>
+
+    <div class="quadrado" id="q3">
+    </div>
+
+</body>
+
+</html>
