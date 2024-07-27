@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.topo{
+    background-color: lightgray;
+    padding: 1% 10%;
+    font-size: 1.7em;
+    margin-top: 50px;
+}
+
+.topo a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.topo a:hover{
+    text-decoration: underline;
+    background-color: lightblue;
+}
+
+.principal{
+    padding: 1% 10%;
+    font-size: 1.3em;
+}
+
+.fotos {
+	width: 720px;
+	height: 440px;
+	position: relative;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 720px;
+	height: 440px;
+}
+
+.fotos span{
+    background-color: lightgray;
+    color: black;
+    margin-right: 10px;
+}
+
+.fotos img {
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+.fotos span:hover img{
+    z-index: 2;
+}
+
+p a{
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 2px;
+}
+
+p a:hover{
+    text-decoration: underline;
+    background-color: lightblue;
+}

@@ -27,7 +27,8 @@
 
         nav{
             background-color: white;
-            padding: 15px 100px;
+            flex: 1;
+            padding: 15px 10px;
             font-weight: bold;
             margin: 0px;
         }
@@ -75,24 +76,30 @@
             margin: 10px;
             border-radius: 5px;
         }
+        
+        article > aside{
+            background-color:lightgray ;
+        }
 
         footer{
             background-color: rgb(189, 0, 0);
             color: white;
-            text-align: left;
-            padding: 10px;
-            margin: 10px 0px;
+            padding-left: ;
+            width: 95%;
+            position: absolute;
+            bottom: 0px;
+            padding-left: 20px;
         }
 
-        footer h1{
-            margin: 0px;
-            font-size: 2em;
-            font-weight: bold;
+        footer a{
+            text-decoration: none;
+            color: white;
         }
 
-        article > aside{
-            background-color:lightgray ;
+        footer a:hover{
+            text-decoration: underline;
         }
+        
     </style>
 </head>
 <body>
@@ -123,6 +130,7 @@
     <footer>
          <h1>g1</h1>
         <p>últimas notícias</p>
+        <a href="#">Globo notícias</a>
         <p>
         © Copyright 2000-2024 Globo Comunicação e Participações S.A.
         </p>
