@@ -1,67 +1,58 @@
-body{
-    background-color: black;
+body {
+    background-color: darkred;
+    margin: 0px;
     color: white;
 }
 
-.topo{
-    background-color: lightgray;
-    padding: 1% 10%;
-    font-size: 1.7em;
-    margin-top: 50px;
+.topo {
+    background-color: darkred;
+    font-size: 20px;
+    padding: 5px;
+    text-align: right;
 }
 
-.topo a{
-    color: black;
+.topo a {
     text-decoration: none;
-    margin: 0px 20px;
+    color: white;
+    padding: 10px;
 }
 
 .topo a:hover{
-    text-decoration: underline;
-    background-color: lightblue;
+    text-decoration: overline;
+    text-decoration-color: darkslategray;
 }
 
-.principal{
-    padding: 1% 10%;
-    font-size: 1.3em;
+.principal {
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 50px 50px 0px 50px;
+    height: 100%;
 }
 
 .fotos {
-	width: 720px;
-	height: 440px;
-	position: relative;
-    margin-bottom: 50px;
-}
-
-img{
-    width: 720px;
-	height: 440px;
-}
-
-.fotos span{
-    background-color: lightgray;
-    color: black;
-    margin-right: 10px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    margin: auto;
 }
 
 .fotos img {
-	position: absolute;
-	top: 30px;
-	left: 0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
 }
 
-.fotos span:hover img{
-    z-index: 2;
+.fotos span{
+    margin-left: 5px;
 }
 
-p a{
-    text-decoration: none;
-    background-color: lightgray;
-    color: black;
-    padding: 2px;
+.fotos span:hover{
+    text-decoration: overline;
+    text-decoration-color: darkred;
 }
 
-p a:hover{
-    text-decoration: underline;
-    background-color: lightblue;
+.fotos span:hover img {
+    z-index: 1;
 }
