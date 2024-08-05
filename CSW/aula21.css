@@ -1,58 +1,48 @@
-body {
-    background-color: darkred;
-    margin: 0px;
-    color: white;
-}
-
-.topo {
-    background-color: darkred;
-    font-size: 20px;
-    padding: 5px;
-    text-align: right;
-}
-
-.topo a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}
-
-.topo a:hover{
-    text-decoration: overline;
-    text-decoration-color: darkslategray;
-}
-
-.principal {
-    background-color: darkslategray;
-    padding: 10px;
-    margin: 50px 50px 0px 50px;
-    height: 100%;
-}
-
-.fotos {
-    width: 600px;
-    height: 500px;
-    position: relative;
-    text-align: center;
-    margin: auto;
-}
-
-.fotos img {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 100%;
-}
-
-.fotos span{
-    margin-left: 5px;
-}
-
-.fotos span:hover{
-    text-decoration: overline;
-    text-decoration-color: darkred;
-}
-
-.fotos span:hover img {
-    z-index: 1;
-}
+body{
+	color: navy;
+	margin: 0;
+	font-size: 1.1em;
+	}
+	
+	.topo{
+	float: left;
+	width: 200px;
+	height: 100vh;
+	padding: 20px 0px 0px 20px;
+	background-color: gold;
+	}
+	
+	.topo a{
+	color: gray;
+	text-decoration: none;
+	display: block;
+	font-size: 22px;
+	}
+	
+	.topo a:hover{
+	background-color: goldenrod;
+	width: 100%;
+	color: navy;
+	}
+	
+	.principal{
+	background-color: goldenrod;
+	float: right;
+	padding: 15px;
+	}
+	
+	.fotos img{
+	width: 300px;
+	height: 270px;
+	display: block;
+	}
+	
+	.fotos img:hover{
+	width: 800px;
+	height: 550px;
+	}
+	
+	p a{
+	color: gray;
+	text-decoration: none;
+	}
